@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Reimbursement Service</title>
+</head>
+<body>
+
+<form> <a method="post" action = "EPendingRequests.html"> </form>
+<table>
+<tr><td>First Name</td><td><input type="text" name="ers_first_name"></td></tr>
+<tr><td>Last Name</td><td><input type="text" name="ers_last_name"></td></tr>
+
+</table>
+
+
+
+<body> 
+  <p>Now Add Your Company Portal Credentials </p> 
+<form action="/test.php" target="_blank" method="GET"> 
+  Username:<br /> 
+  <input type ="text" name="username" placeholder="Username" required/> 
+  <br /> 
+  Password:<br /> 
+  <input type ="password" name="password" /> 
+  <br /><br /> 
+  <div>
+  
+  <label for="datemax">Enter the reason for reimbursement(type) (travel, food, wrong pay):</label>
+  <input type="text" id="text" name="text" min="1" max="197"><br><br>
+
+  <label for="datemin">Enter the date of the purchase:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+  <label for="quantity">Amount you wisht to be reimbursed:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+
+	<input type="file" id="myFile" name="filename">
+  <input type="submit">Upload a file
+	
+	  
+  </div>
+  
+  
+  
+  <input type ="submit" value ="Submit" /> 
+</form>  
+  
+</body> 
+</html> 
+
